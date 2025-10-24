@@ -22,7 +22,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "product-teaser",
       "product-recommendations",
@@ -41,7 +40,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "product-teaser",
       "product-recommendations"
@@ -58,7 +56,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "enrichment",
       "product-teaser",
@@ -77,7 +74,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "enrichment",
       "product-details",
@@ -96,7 +92,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-mini-cart"
     ]
@@ -112,7 +107,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-cart",
       "product-teaser",
@@ -130,7 +124,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-order-header",
       "commerce-order-status",
@@ -155,7 +148,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-checkout"
     ]
@@ -171,7 +163,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-search-order"
     ]
@@ -187,7 +178,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "product-list-page"
     ]
@@ -203,7 +193,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-login"
     ]
@@ -219,7 +208,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-forgot-password"
     ]
@@ -235,7 +223,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-create-account"
     ]
@@ -251,7 +238,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-account-sidebar",
       "commerce-account-header",
@@ -272,7 +258,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-account-sidebar",
       "commerce-orders-list"
@@ -289,7 +274,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-account-sidebar",
       "commerce-addresses"
@@ -306,7 +290,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-account-sidebar",
       "commerce-returns-list"
@@ -323,7 +306,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-account-sidebar",
       "commerce-order-header",
@@ -346,7 +328,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-search-order"
     ]
@@ -362,7 +343,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-return-header",
       "commerce-order-status",
@@ -382,7 +362,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-create-return"
     ]
@@ -398,7 +377,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-confirm-account"
     ]
@@ -414,7 +392,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-create-password"
     ]
@@ -430,7 +407,6 @@
       "cards",
       "columns",
       "fragment",
-      "teaser",
       "teaser2",
       "commerce-wishlist"
     ]
