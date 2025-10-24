@@ -1,13 +1,13 @@
 {
   "mappings": [
-    "/content/jack-eds-practice-site2/:/",
-    "/content/jack-eds-practice-site2/configuration:/.helix/config.json",
-    "/content/jack-eds-practice-site2/headers:/.helix/headers.json",
-    "/content/jack-eds-practice-site2/metadata:/metadata.json",
-    "/content/jack-eds-practice-site2/placeholders:/placeholders.json",
-    "/content/jack-eds-practice-site2.resource/enrichment/enrichment.json:/enrichment/enrichment.json"
+    "/content/LearningEDSUE/:/",
+    "/content/LearningEDSUE/configuration:/.helix/config.json",
+    "/content/LearningEDSUE/headers:/.helix/headers.json",
+    "/content/LearningEDSUE/metadata:/metadata.json",
+    "/content/LearningEDSUE/placeholders:/placeholders.json",
+    "/content/LearningEDSUE.resource/enrichment/enrichment.json:/enrichment/enrichment.json"
   ],
   "includes": [
-    "/content/jack-eds-practice-site2/"
+    "/content/LearningEDSUE/"
   ]
 }
