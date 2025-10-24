@@ -1,13 +1,13 @@
 {
   "mappings": [
-    "/content/LearningEDSUS/:/",
-    "/content/LearningEDSUS/configuration:/.helix/config.json",
-    "/content/LearningEDSUS/headers:/.helix/headers.json",
-    "/content/LearningEDSUS/metadata:/metadata.json",
-    "/content/LearningEDSUS/placeholders:/placeholders.json",
-    "/content/LearningEDSUS.resource/enrichment/enrichment.json:/enrichment/enrichment.json"
+    "/content/LearningEDSUE/:/",
+    "/content/LearningEDSUE/configuration:/.helix/config.json",
+    "/content/LearningEDSUE/headers:/.helix/headers.json",
+    "/content/LearningEDSUE/metadata:/metadata.json",
+    "/content/LearningEDSUE/placeholders:/placeholders.json",
+    "/content/LearningEDSUE.resource/enrichment/enrichment.json:/enrichment/enrichment.json"
   ],
   "includes": [
-    "/content/LearningEDSUS/"
+    "/content/LearningEDSUE/"
   ]
 }
