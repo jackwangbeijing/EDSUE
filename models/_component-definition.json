@@ -48,7 +48,10 @@
         },
         {
           "...": "../blocks/teaser2/_*.json#/definitions"
-        }
+        },
+        {
+          "...": "../blocks/quote/_*.json#/definitions"
+        } 
       ]
     },
     {

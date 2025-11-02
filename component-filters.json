@@ -23,6 +23,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "product-teaser",
       "product-recommendations",
       "teaser",
@@ -41,6 +42,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "product-teaser",
       "product-recommendations"
     ]
@@ -57,6 +59,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "enrichment",
       "product-teaser",
       "product-recommendations",
@@ -75,6 +78,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "enrichment",
       "product-details",
       "product-teaser",
@@ -93,6 +97,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-mini-cart"
     ]
   },
@@ -108,6 +113,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-cart",
       "product-teaser",
       "product-recommendations"
@@ -125,6 +131,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-order-header",
       "commerce-order-status",
       "commerce-shipping-status",
@@ -149,6 +156,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-checkout"
     ]
   },
@@ -164,6 +172,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-search-order"
     ]
   },
@@ -179,6 +188,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "product-list-page"
     ]
   },
@@ -194,6 +204,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-login"
     ]
   },
@@ -209,6 +220,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-forgot-password"
     ]
   },
@@ -224,6 +236,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-create-account"
     ]
   },
@@ -239,6 +252,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-account-sidebar",
       "commerce-account-header",
       "commerce-orders-list",
@@ -259,6 +273,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-account-sidebar",
       "commerce-orders-list"
     ]
@@ -275,6 +290,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-account-sidebar",
       "commerce-addresses"
     ]
@@ -291,6 +307,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-account-sidebar",
       "commerce-returns-list"
     ]
@@ -307,6 +324,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-account-sidebar",
       "commerce-order-header",
       "commerce-order-status",
@@ -329,6 +347,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-search-order"
     ]
   },
@@ -344,6 +363,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-return-header",
       "commerce-order-status",
       "commerce-shipping-status",
@@ -363,6 +383,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-create-return"
     ]
   },
@@ -378,6 +399,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-confirm-account"
     ]
   },
@@ -393,6 +415,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-create-password"
     ]
   },
@@ -408,6 +431,7 @@
       "columns",
       "fragment",
       "teaser2",
+      "quote",
       "commerce-wishlist"
     ]
   },

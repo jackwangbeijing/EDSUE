@@ -453,7 +453,7 @@
         "component": "text",
         "valueType": "string",
         "name": "textContent",
-        "label": "Some quoted text",
+        "label": "textContent",
         "required": true
       },
       {
