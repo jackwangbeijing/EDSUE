@@ -32,8 +32,8 @@
                 {
                     "component": "text",
                     "valueType": "string",
-                    "name": "quote2",
-                    "label": "Quote2 Labelt",
+                    "name": "textContent",
+                    "label": "Some quoted text",
                     "required": true
                 },
                 {
