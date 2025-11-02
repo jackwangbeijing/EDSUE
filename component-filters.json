@@ -22,11 +22,11 @@
       "cards",
       "columns",
       "fragment",
+      "teaser2",
       "product-teaser",
       "product-recommendations",
       "teaser",
-      "quote",
-      "teaser2"
+      "quote"
     ]
   },
   {
@@ -40,6 +40,7 @@
       "cards",
       "columns",
       "fragment",
+      "teaser2",
       "product-teaser",
       "product-recommendations"
     ]
@@ -55,6 +56,7 @@
       "cards",
       "columns",
       "fragment",
+      "teaser2",
       "enrichment",
       "product-teaser",
       "product-recommendations",
@@ -72,6 +74,7 @@
       "cards",
       "columns",
       "fragment",
+      "teaser2",
       "enrichment",
       "product-details",
       "product-teaser",
@@ -89,6 +92,7 @@
       "cards",
       "columns",
       "fragment",
+      "teaser2",
       "commerce-mini-cart"
     ]
   },
@@ -103,6 +107,7 @@
       "cards",
       "columns",
       "fragment",
+      "teaser2",
       "commerce-cart",
       "product-teaser",
       "product-recommendations"
@@ -119,6 +124,7 @@
       "cards",
       "columns",
       "fragment",
+      "teaser2",
       "commerce-order-header",
       "commerce-order-status",
       "commerce-shipping-status",
@@ -127,6 +133,7 @@
       "commerce-gift-options",
       "commerce-order-product-list",
       "commerce-order-returns",
+      "product-teaser",
       "product-recommendations"
     ]
   },
@@ -141,6 +148,7 @@
       "cards",
       "columns",
       "fragment",
+      "teaser2",
       "commerce-checkout"
     ]
   },
@@ -155,6 +163,7 @@
       "cards",
       "columns",
       "fragment",
+      "teaser2",
       "commerce-search-order"
     ]
   },
@@ -169,6 +178,7 @@
       "cards",
       "columns",
       "fragment",
+      "teaser2",
       "product-list-page"
     ]
   },

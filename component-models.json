@@ -440,6 +440,32 @@
     ]
   },
   {
+    "id": "quote",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "name",
+        "label": "Name",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "quote2",
+        "label": "Quote2 Labelt",
+        "required": true
+      },
+      {
+        "component": "richtext",
+        "name": "quote",
+        "label": "Quote Text",
+        "valueType": "string",
+        "required": true
+      }
+    ]
+  },
+  {
     "id": "teaser",
     "fields": [
       {
