@@ -445,16 +445,16 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "name",
-        "label": "Name",
+        "name": "model",
+        "label": "Quote",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "textContent",
-        "label": "textContent",
-        "required": true
+        "name": "author",
+        "label": "Jack Wang",
+        "required": false
       },
       {
         "component": "richtext",
