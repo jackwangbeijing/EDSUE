@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/* CubLinkGroupSimple 自訂樣式 */
+.section.cub-link-group-simple-container{
+  margin-top: 1.875rem;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  row-gap: 1.875rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem
+}
+@media (min-width: 961px){
+  .section.cub-link-group-simple-container{
+    gap: 2.5rem
+  }
+}
+@media (min-width: 1280px){
+  .section.cub-link-group-simple-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-left: 0px;
+    padding-right: 0px
+  }
+}
+
+/* 卡片容器樣式 */
+.link-group-section {
+  /* 預留給未來樣式 */
+}
+
+/* 卡片樣式 - 無邊框 */
+.link-card{
+  width: 100%;
+  border-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1))
+}
+
+.link-card-header{
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(221 221 221 / var(--tw-border-opacity, 1));
+  padding: 0.625rem;
+  padding-bottom: 0.25rem;
+  padding-top: 1.25rem
+}
+
+@media (min-width: 768px){
+  .link-card-header{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem
+  }
+}
+
+.link-card-title{
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity, 1))
+}
+
+.link-card-icon{
+  height: 1.875rem;
+  width: 1.875rem;
+  -o-object-fit: contain;
+     object-fit: contain
+}
+
+.link-card-main-title{
+  font-size: 1.75rem;
+  line-height: 1.5;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity, 1))
+}
+
+.link-card-content{
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-bottom: 1.875rem;
+  padding-top: 1.25rem
+}
+
+@media (min-width: 768px){
+  .link-card-content{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem
+  }
+}
+
+@media (min-width: 1280px){
+  .link-card-content{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem
+  }
+}
+
+/* 分類容器 */
+.category-container{
+  display: grid;
+  align-items: flex-start
+  /* 有標題時使用 3 欄 */
+}
+@media (min-width: 768px){
+  .category-container.has-titles{
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+  }
+}
+
+.category-item{
+  margin-top: 1.25rem;
+  display: grid
+}
+
+.category-item:first-child{
+  margin-top: 0px
+}
+
+@media (min-width: 768px){
+  .category-item{
+    margin-top: 0px
+  }
+}
+
+.category-item {
+  /* 無標題時不需要上邊距，且使用 flex */
+}
+.category-item.no-title{
+  margin-top: 0px;
+  min-width: 0px;
+  flex: 1 1 0%
+}
+
+/* 分類標題 */
+.category-title{
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(85 85 85 / var(--tw-text-opacity, 1))
+}
+
+/* 連結容器 */
+.links-container{
+  display: grid
+  /* 有標題時 */
+}
+.links-container.with-title{
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+}
+@media (min-width: 768px){
+  .links-container.with-title{
+    grid-template-columns: repeat(1, minmax(0, 1fr))
+  }
+}
+.links-container {
+  /* 無標題時使用 grid 限制每排最多3個 */
+}
+.links-container.without-title{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+  row-gap: 0.5rem
+}
+@media (min-width: 768px){
+  .links-container.without-title{
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+  }
+}
+
+/* 連結項目樣式 - 參考 TextLink */
+.link-item{
+  position: relative;
+  margin-bottom: 1rem;
+  margin-right: 1.25rem;
+  align-items: flex-start;
+  padding-left: 1rem;
+  text-decoration-line: none;
+  font-size: 1rem;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(38 168 98 / var(--tw-text-opacity, 1))
+}
+.link-item:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 81 42 / var(--tw-text-opacity, 1))
+}
+.link-item{
+  font-weight: 400;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  animation-duration: 300ms
+  /* 左邊框裝飾 */
+}
+.link-item::before{
+  position: absolute;
+  left: 4px;
+  top: 5px;
+  height: 15px;
+  width: 10px;
+  border-left-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(38 168 98 / var(--tw-border-opacity, 1));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  animation-duration: 300ms;
+  content: ""
+}
+.link-item {
+  /* hover 效果 */
+}
+.link-item:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 81 42 / var(--tw-text-opacity, 1))
+}
+.link-item:hover::before{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 81 42 / var(--tw-border-opacity, 1))
+}
+
+/* 沒有連結時的佔位符 */
+.no-links-placeholder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(136 136 136 / var(--tw-text-opacity, 1));
+  min-height: 100px
+}

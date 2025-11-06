@@ -455,5 +455,17 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "cub-link-group-simple",
+    "components": [
+      "cub-link-group-simple-sublink"
+    ]
+  },
+  {
+    "id": "cub-teaser",
+    "components": [
+      "cub-teaser-faq"
+    ]
   }
 ]

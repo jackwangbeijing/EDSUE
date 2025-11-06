@@ -325,6 +325,308 @@
     ]
   },
   {
+    "id": "cub-link-group-simple",
+    "fields": [
+      {
+        "component": "select",
+        "name": "topSpace",
+        "label": "Top Space (Default:40px) / 上方預留高度 (建議高度為40px)",
+        "required": true,
+        "value": "40px",
+        "options": [
+          {
+            "name": "40px",
+            "value": "40px"
+          },
+          {
+            "name": "0px",
+            "value": "0px"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "titleIcon",
+        "label": "Title Icon / 標題圖示",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "titleIconAlt",
+        "label": "Alternative Text / 標題圖示_Alt替代文字",
+        "required": false
+      },
+      {
+        "component": "boolean",
+        "name": "iconAltFromDAM",
+        "label": "Get alternative text from DAM / 是否要引用Assets替代文字說明",
+        "required": false
+      },
+      {
+        "component": "text",
+        "name": "mainTitle",
+        "label": "Main Title / 主標題 (建議9字以內)",
+        "required": true
+      },
+      {
+        "component": "boolean",
+        "name": "subcategoryDisplay",
+        "label": "Subcategory / 是否含有子標題",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "subcategoryTitle1",
+        "label": "Subcategory Title 1 / 子類別標題 1 (建議8字以內)",
+        "required": true,
+        "condition": {
+          "===": [
+            {
+              "var": "subcategoryDisplay"
+            },
+            true
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "name": "subcategoryTitle2",
+        "label": "Subcategory Title 2 / 子類別標題 2 (建議8字以內)",
+        "required": false,
+        "condition": {
+          "and": [
+            {
+              "===": [
+                {
+                  "var": "subcategoryDisplay"
+                },
+                true
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "name": "subcategoryTitle3",
+        "label": "Subcategory Title 3 / 子類別標題 3 (建議8字以內)",
+        "required": false,
+        "condition": {
+          "and": [
+            {
+              "===": [
+                {
+                  "var": "subcategoryDisplay"
+                },
+                true
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "cub-teaser",
+    "fields": [
+      {
+        "component": "tab",
+        "label": "Image",
+        "name": "imagetab"
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image"
+      },
+      {
+        "component": "tab",
+        "label": "Texts",
+        "name": "texttab"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "teaser_pretitle",
+        "label": "Pretitle"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "teaser_title",
+        "label": "Title",
+        "required": true
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "teaser_titleType",
+        "label": "Heading type for title",
+        "options": [
+          {
+            "name": "h2",
+            "value": "h2"
+          },
+          {
+            "name": "h3",
+            "value": "h3"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "teaser_description",
+        "label": "Description"
+      },
+      {
+        "component": "tab",
+        "label": "Links",
+        "name": "linkstab"
+      },
+      {
+        "component": "select",
+        "name": "links_link1icon",
+        "label": "Link 1 Icon",
+        "options": [
+          {
+            "name": "Info",
+            "value": "info"
+          },
+          {
+            "name": "Video",
+            "value": "video"
+          },
+          {
+            "name": "Currency",
+            "value": "currency"
+          },
+          {
+            "name": "Credit Card",
+            "value": "credit-card"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "name": "links_link1",
+        "label": "Link 1"
+      },
+      {
+        "component": "text",
+        "name": "links_link1Text",
+        "label": "Link 1 Text"
+      },
+      {
+        "component": "select",
+        "name": "links_link2icon",
+        "label": "Link 2 Icon",
+        "options": [
+          {
+            "name": "Info",
+            "value": "info"
+          },
+          {
+            "name": "Video",
+            "value": "video"
+          },
+          {
+            "name": "Currency",
+            "value": "currency"
+          },
+          {
+            "name": "Credit Card",
+            "value": "credit-card"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "name": "links_link2",
+        "label": "Link 2"
+      },
+      {
+        "component": "text",
+        "name": "links_link2Text",
+        "label": "Link 2 Text"
+      },
+      {
+        "component": "tab",
+        "label": "CTA Buttons",
+        "name": "cta_buttonstab"
+      },
+      {
+        "component": "text",
+        "name": "cta_button1Text",
+        "label": "Button 1 Text"
+      },
+      {
+        "component": "aem-content",
+        "name": "cta_button1",
+        "label": "Button 1 Link"
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "cta_button1Type",
+        "label": "Button 1Style",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "secondary"
+          },
+          {
+            "name": "Secondary",
+            "value": "Primary"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "name": "cta_button2Text",
+        "label": "Button 2 Text"
+      },
+      {
+        "component": "aem-content",
+        "name": "cta_button2",
+        "label": "Button 2 Link"
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "cta_button2Type",
+        "label": "Button 2 Style",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "secondary"
+          },
+          {
+            "name": "Secondary",
+            "value": "Primary"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cub-teaser-faq",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "question",
+        "label": "Question"
+      },
+      {
+        "component": "richtext",
+        "name": "answer",
+        "label": "Answer",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "enrichment",
     "fields": [
       {
