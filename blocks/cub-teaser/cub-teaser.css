@@ -3,11 +3,11 @@
   padding: 40px;
   border-radius: 8px;
   margin: 20px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.1);
 }
 
 /* the div containg image and texts */
-.block.cub-teaser > div:first-child {
+.block.cub-teaser>div:first-child {
   display: flex;
   flex-direction: row;
   gap: 48px;
@@ -31,7 +31,7 @@
 }
 
 /* pretitle:target the p that is immediately followed by a h2 or h3 */
-.block.cub-teaser .cub-teaser-text > p:first-child {
+.block.cub-teaser .cub-teaser-text>p:first-child {
   display: inline-block;
   background-image: linear-gradient(90deg, #ff6000, #f90);
   color: white;
@@ -42,7 +42,7 @@
   position: relative;
 }
 
-.block.cub-teaser .cub-teaser-text > p:first-child::after {
+.block.cub-teaser .cub-teaser-text>p:first-child::after {
   content: '';
   position: absolute;
   left: 100%;
@@ -67,8 +67,8 @@
 }
 
 /* teaser description, target the p right after the h2 or h3 */
-.block.cub-teaser .cub-teaser-text > h2 + p,
-.block.cub-teaser .cub-teaser-text > h3 + p {
+.block.cub-teaser .cub-teaser-text>h2+p,
+.block.cub-teaser .cub-teaser-text>h3+p {
   font-size: 16px;
   line-height: 1.6;
   color: #666;
@@ -90,12 +90,12 @@
 }
 
 
-.block.cub-teaser .cub-teaser-links  a.button {
+.block.cub-teaser .cub-teaser-links a.button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   height: 20px;
-  padding:0px;
+  padding: 0px;
   font-size: 14px;
   color: #999;
   background-color: white;
@@ -105,22 +105,23 @@
   margin: 0;
 }
 
-.block.cub-teaser .cub-teaser-links  a.button::before {
-  padding-right:10px;
+.block.cub-teaser .cub-teaser-links a.button::before {
+  padding-right: 10px;
 }
-.block.cub-teaser .cub-teaser-links  a.button.video::before {
+
+.block.cub-teaser .cub-teaser-links a.button.video::before {
   content: "\e903";
 }
 
-.block.cub-teaser .cub-teaser-links  a.button.currency::before {
+.block.cub-teaser .cub-teaser-links a.button.currency::before {
   content: "\e900";
 }
 
-.block.cub-teaser .cub-teaser-links  a.button.credit-card::before {
+.block.cub-teaser .cub-teaser-links a.button.credit-card::before {
   content: "\e901";
 }
 
-.block.cub-teaser .cub-teaser-links  a.button.info::before {
+.block.cub-teaser .cub-teaser-links a.button.info::before {
   content: "\e902";
 }
 
@@ -251,7 +252,7 @@
     padding: 20px;
   }
 
-  .block.cub-teaser > div:first-child {
+  .block.cub-teaser>div:first-child {
     flex-direction: column;
     gap: 24px;
   }
